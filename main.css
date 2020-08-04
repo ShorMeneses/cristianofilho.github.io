@@ -112,7 +112,7 @@ body {
     background-color: #fff;
     position: fixed;
     top: 0;
-    right: -20rem;
+    right: -2rem;
     transition: all 1s;
     z-index: 80;
   }

@@ -40,11 +40,13 @@ header {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  font-family: var(--font-secundary);
 }
 
 body {
   font-size: 16px;
 }
+
 
 .img-wrapper {
   width: 100%;
@@ -113,9 +115,11 @@ body {
   z-index: 80;
 }
 
-.sidebar .show-menu {
+.sidebar.viewMenu{
   right: 0;
 }
+
+
 
 .menu {
   position: absolute;

@@ -1,204 +1,208 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset='utf-8'>
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>Portfólio</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
+  </head>
+  <body>
 
-<body>
-        
     <div class="container">
 
-       <div class="burger">
-           <div class="line" id= line1></div>
-           <div class="line" id= line2></div>
-           <div class="line"id= line3></div>
-          
-       </div>
-        </div>
-        <header>
-            
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
+
+        <header id="home">
             <div class="img-wrapper">
-            <img src="/images/dev.jpg" alt="">
-           <div class="banner">
-               <h1>Engenheiro de Software Jr.<br> 
-                   em formação</h1>
-           <p>Cristiano Filho</p>
-           <button class="btn">Conheça mais</button>
-        </div>
-    </div>
-           
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Engenheiro de Software Jr.
+                  em formação</h1>
+                <p>Cristiano Filho</p>
+               <a href="https://www.linkedin.com/in/cristiano-filho-16a141150/"><button>Conheça mais</button></a>
+            </div>
         </header>
-        <div class="sidebar">
-            <nav>
-                <ul class="menu">
-                    <li class="menu-item"><a href="#Home" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
-                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
-                </ul>
-            </nav>
-            <div class="social-midia">
-                <a href="https://github.com/CristianoFIlho"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/cristiano-filho-16a141150/"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/_cristiano.filho/?hl=pt-br"><i class="fab fa-instagram"></i></a>
-            </div>
-        
 
-        
-    </div>
-    <section class="sessao-conhecimentos">
-        <div class="sessao-header">
-            <h1>Stacks</h1>
-        </div>
-        <div class="conhecimentos">
-            <div class="conhecimento">
-                <div class="conhecimento-header">
-                    <i class="fab fa-html5"></i>
-                    <h3>HTML5</h3>
-                </div>
-                <div class="conhecimento-text">
-                    <p>Conhecimento em HTML5 sites básicos e respansivos</p>
-                </div>
-            </div>
-            <div class="conhecimento">
-                <div class="conhecimento-header">
-                    <i class="fab fa-css3-alt"></i>
-                    <h3>CSS</h3>
-                </div>
-                <div class="conhecimento-text">
-                    <p>Conhecimento em CSS padrões de leach e design</p>
-                </div>
-            </div>
-            <div class="conhecimento">
-                <div class="conhecimento-header">
-                    <i class="fas fa-database"></i>
-                    <h3>MySQL</h3>
-                </div>
-                <div class="conhecimento-text">
-                    <p>criação de databases e modelagem de banco de dados, scripts e DUMPS</p>
-                </div>
-            </div>
-            <div class="conhecimento">
-                <div class="conhecimento-header">
-                    <i class="fab fa-google"></i>
-                    <h3>Dart</h3>
-                </div>
-                <div class="conhecimento-text">
-                    <p>criação de aplicações básicas usuando o framework  flutter do dart</p>
-                </div>
-            </div>
-            <div class="conhecimento">
-                <div class="conhecimento-header">
-                    <i class="fab fa-java"></i>
-                    <h3>Java</h3>
-                </div>
-                <div class="conhecimento-text">
-                    <p>Back-end java para web, tomcat, servlet e hibernat</p>
-                </div>
-            </div>
-            <div class="conhecimento">
-                <div class="conhecimento-header">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
-                </div>
-                <div class="conhecimento-text">
-                    <p>JavaScript básico para web auxiliando o HTML na criação de bottons e funções</p>
-                </div>
-      
-            </div>
-        </div>
-       
-
+        <aside class="sidebar">
+          <nav>
+            <ul class="menu">
+              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+              <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+              <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+            </ul>
+          </nav>
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/cristiano-filho-16a141150/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/CristianoFIlho"><i class="fab fa-github-alt"></i></a>
+            <a href="https://www.instagram.com/_cristiano.filho/"><i class="fab fa-instagram"></i></a>
+          </div>
         </aside>
-    </section>
-     
-    <div class="sessao-projetos">
-        <div class="sessao-header">
-            <h1>Projects</h1>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+          <div class="sessao-header">
+            <h1>Conhecimentos</h1>
           </div>
-          <div class="projects">
+          <div class="conhecimentos">
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p></p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Conhecimento em CSS padrões de leach e design</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fas fa-database"></i>
+                <h3>mySql</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>criação de databases e modelagem de banco de dados, scripts e DUMPS</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-js"></i>
+                <h3>Javascript</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>JavaScript básico para web auxiliando o HTML na criação de bottons e funções              
+                </p>               
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Back-end java para web, tomcat, servlet e hibernat</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-github"></i>
+                <h3>Git e GitHub</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Gestão de configuração e mudança usando git e github</p>
+              </div>
+            </div>
+            <div class="conhecimentos-img-wrapper">
+              <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+            </div>
+          </div>
+        </section>
+
+        <div class="sessao-projetos" id="projetos">
+          <div class="sessao-header">
+            <h1>Projetos</h1>
+          </div>
+          <div class="projetos">
             <div class="card">
               <div class="card-img-wrapper">
-                <img src="images/img1.png" alt="imagem Portfólio" />
+                <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
               </div>
               <div class="card-info">
-                <h2 class="projects-text">Portfólio</h2>
-                <h3 class="projects-text">CSS, JavaScript e HTML5</h3>
-                <p class="projects-text">Projeto de Portfólio site básico usando (HTML5, CSS e JavaScript)</p>
-                <button class="btn">Saiba Mais</button>
+                <h2>Projetos da faculdade</h2>
+                <h3>Java</h3>
+                <p>Projetos relacionados a faculdade usando java Web e OO</p>
+                <a href="https://github.com/CristianoFIlho"><button class="btn">Saiba Mais</button></a>
               </div>
             </div>
             <div class="card">
               <div class="card-img-wrapper">
-                <img src="images/conhecimento.jpg" alt= "imagem conhecimento" />
+                <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
               </div>
               <div class="card-info">
-                <h2 class="projects-text">E-commerce</h2>
-                <h3 class="projects-text"> Projeto e-commerce</h3>
-                <p class="projects-text">Site básico de uma loja virtual</p>
-                <button class="btn">Saiba Mais</button>
+                <h2>Front-end</h2>
+                <h3>HTML, CSS, Javascript</h3>
+                <p>projetos usando front-end HTML, CSS, Javascript para criação de websites</p>
+                <a href="https://github.com/CristianoFIlho"><button class="btn">Saiba Mais</button></a>
               </div>
             </div>
-              <div class="card">
-                  <div class="card-img-wrapper"></div>
-                  <img src="images/project3.png" alt="imagem outros projetos">
-                <h2 class="projects-text">github</h2>
-                <h3 class="projects-text">outras stacks</h3>
-                <p class="projects-text"> outros projetos em desenvolvimento</p>
-                <button class="btn">Saiba Mais</button>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj3.jpg" alt="Projetos no github" />
+              </div>
+              <div class="card-info">
+                <h2>GitHub</h2>
+                <h3>outras projetos</h3>
+                <p>outros projetos em desenvolvimento</p>
+                <a href="https://github.com/CristianoFIlho"><button class="btn">Saiba Mais</button></a>
               </div>
             </div>
           </div>
 
-        </section> 
+        </section>
 
-    
-    
-    
-        <section class="sessao-contato">
-        <div class="contato-wrapper">
-            <div class="contato-laft"></div>
-                <h1>Contacs</h1>
-                <form action="">
+        <section class="sessao-contato" id="contato">
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h1>Contato</h1>
+              <form method="POST" action="processa.php"> 
+               
                 <div class="input-group">
-                    <input type="text" class="field" id="nome">
-                    <lable for="nome" class="field-labal">Nome</lable>
+                  <input type="text" class="field" id="nome">
+                  <label for="nome" class="field-label">Nome</label>
                 </div>
                 <div class="input-group">
-                    <input type="text" class="field" id=E-mail>
-                    <lable for="E-mail"class="field-labal">E-mail</lable>
+                  <input type="text" class="field" id="email">
+                  <label for="email" class="field-label">E-mail</label>
                 </div>
                 <div class="input-group">
-                    <input type="text"  class="field" id=Menssagem>
-                    <lable for="E-mail" class="field-labal">Mensage</lable>
-                    <br>
-                    <button type="submit" class="btn">Enviar</button>
+                  <textarea class="field" id="mensagem"></textarea>
+                  <label for="mensagem" class="field-label">Mensagem</label>
                 </div>
-                        
-                </form>
+                <button type="submit" class="btn btn-submit">Enviar</button>
+              </form> 
             </div>
-        </div>
-    </section>
+          </div>
+        </section>
 
+        
 
-</body>
+        <footer>
+          <div class="footer-content">
+            <p>
+              Copyright &copy; 2020, Todos os diretos reservados
+            </p>
+            <div class="social-list">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/cristiano-filho-16a141150/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/_cristiano.filho/?hl=pt-br"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://github.com/CristianoFIlho"><i class="fab fa-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+   </body>
 
-<script src="main.js" async></script> 
-  
-
-
+   <script src="script.js"></script>
 </html>
-

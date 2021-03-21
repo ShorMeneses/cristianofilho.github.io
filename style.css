@@ -624,7 +624,7 @@ footer {
 }
 
 .lenguage img {
-  display: flexbox;
+  display: inline;
   width: 3rem;
   max-height: 100px;
   max-width: 150px;

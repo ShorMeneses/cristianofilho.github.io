@@ -209,6 +209,23 @@
         padding: 2px 5px;
         border-radius: 4px;
       }
+
+      #link-topo {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  width: 3rem;
+  height: 3rem;
+  background: #6a3093;
+  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+  background: linear-gradient(to left, #a044ff, #6a3093);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.1rem 0.6rem #00000009;
+}
       @media only screen and (max-width: 768px) {
         .footer > * {
           flex: 1 1 100%;
@@ -1423,6 +1440,7 @@
                 </svg>
               </div>
               <ul class="menubar">
+                <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skill">Skill</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
@@ -2426,6 +2444,9 @@
                     By Me<!-- -->
                   
                   </p>
+                  <a href="#" id="link-topo">
+                    <i class="fas fa-arrow-up"></i>
+                  </a>
                 </div>
               </div>
             </div>

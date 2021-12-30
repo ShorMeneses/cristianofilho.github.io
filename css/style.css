@@ -310,7 +310,13 @@
         border-radius: 0.3rem;
         box-shadow: 0 0.1rem 0.6rem #00000009;
       }
-  
+  @media screen and (max-width: 768px) {
+     #link-topo{
+      position: fixed;
+      right: 20rem;
+    }
+  }
+
       @media only screen and (max-width: 768px) {
         .footer>* {
           flex: 1 1 100%;

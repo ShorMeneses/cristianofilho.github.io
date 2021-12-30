@@ -312,15 +312,52 @@
       }
   
   
+     
 
   
+  
+      @media screen and (max-width: 1210px) {
+        #link-topo{
+         position: fixed;
+         right: 30rem;
+       }
+     }
 
   @media screen and (max-width: 1400px) {
     #link-topo{
      position: fixed;
-     right: 10rem;
+     right: 50rem;
    }
  }
+
+
+
+ @media screen and (max-width:  768px) {
+  #link-topo{
+   position: fixed;
+   right: 25rem;
+ }
+}
+
+@media screen and (max-width:   636px) {
+  #link-topo{
+   position: fixed;
+   right: 24rem;
+ }
+}
+
+
+
+@media screen and (max-width:   610px) {
+  #link-topo{
+   position: fixed;
+   right: 20rem;
+ }
+}
+
+
+
+
 
 
       @media only screen and (max-width: 768px) {

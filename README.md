@@ -1,7 +1,8 @@
 # Cristiano Filho
 Cristiano Filho portfolio 😄
 
-![cristianofilho](https://user-images.githubusercontent.com/54041918/146531003-fd095fbc-ac65-4840-b0c5-b3a62ff3ebf9.gif)
+![Profile](https://user-images.githubusercontent.com/54041918/172051164-760ed8ba-740b-4fd5-bb48-7f2025878480.gif)
+
 
 Deploy: https://cristianofilho.com.br/
 

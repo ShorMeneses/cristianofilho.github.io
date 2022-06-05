@@ -5,8 +5,8 @@
 :root {
 
     /* color */
-    --first-color: hsl(356, 66%, 75%);
-    --first-color-alt: hsl(356, 46%, 61%);
+    --first-color: #807BBC;
+    --first-color-alt: #0B0F1F
 
     --title-color: #f0f2f4;
     --text-color: #c4babb;
@@ -195,11 +195,11 @@ img {
 /* Active Link */
 .active-link {
     background: linear-gradient(180deg,
-              #e9959b,
+              #807BBC,
               hsla(356, 66%, 75%, 0.2)
               );
     
-    box-shadow: 0 0 16px #e9959b66;
+    box-shadow: 0 0 16px #e995e566;
 }
 
 /* Change Backround Header */
@@ -248,7 +248,7 @@ img {
     width: 190px;
     height: 293px;
     background: linear-gradient(180deg,
-                hsl(356, 66%, 75%),
+                #807BBC,
                 hsla(356, 66%, 75%, 0.2)                
                 );
     border-radius: 10rem 10rem 1rem 1rem;

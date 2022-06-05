@@ -72,7 +72,7 @@ body.dark {
 }
 
 .label {
-	background-color: #111;
+	background-color: var(--first-color);
 	border-radius: 50px;
 	cursor: pointer;
 	display: flex;

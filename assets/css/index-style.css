@@ -99,7 +99,35 @@ body.dark {
 
 .checkbox:checked + .label .ball {
 	transform: translateX(24px);
+	-webkit-transform: translateX(24px);
+	-moz-transform: translateX(24px);
+	-ms-transform: translateX(24px);
+	-o-transform: translateX(24px);
 }
+
+/* Resposive button  */
+
+@media screen and (max-width: 600px) {
+    .checkbox:checked + .label .ball {
+        transform: translateX(16px);
+        -webkit-transform: translateX(16px);
+        -moz-transform: translateX(16px);
+        -ms-transform: translateX(16px);
+        -o-transform: translateX(16px);
+}
+    }
+
+  @media screen and (max-width : 600px){
+    .label{
+        width: 40px;
+    }
+  }
+
+  @media screen and (max-width : 600px){
+    .ball{
+        width: 20px;
+    }
+  }
 
 /*=============== Dark Mode ===============*/
 
